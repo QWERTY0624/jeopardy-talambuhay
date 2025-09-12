@@ -86,7 +86,7 @@
 	<div class="name-entry">
 		<h2>
 			{#if joinError}Name already taken. Please choose a different name:
-			{:else}Enter your name to join the game:
+			{:else}Enter your name:
 			{/if}
 		</h2>
 
@@ -102,7 +102,7 @@
 			{#if submitName}
 				<img src="/loading.svg" alt="loading" width="32" height="32" />
 			{:else}
-				Join Game
+				Join
 			{/if}
 		</button>
 	</div>

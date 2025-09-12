@@ -6,15 +6,15 @@ const sortQuestions = (questions: { points: number; question: string; answer: st
 const pastQuestions: Question[] = sortQuestions([
     {
         points: 100,
-        question: 'What US state is the Land of Lincoln?',
-        answer: 'Illinois',
+        question: 'What grade did I join HM',
+        answer: '9th',
     },
     {
         points: 200,
         question:
-            'Which country\'s flag is this?',
-        imgSrc: "https://cdn.britannica.com/34/4034-050-91EE1BCF/Flag-Myanmar.jpg",
-        answer: 'Myanmar',
+            'What city is this',
+        imgSrc: "",
+        answer: 'New York City',
     },
     {
         points: 300,
@@ -74,15 +74,15 @@ const futureQuestions: Question[] = sortQuestions([
 
 const categories = [
     {
-        title: 'My Past',
+        title: 'Toby\'s Past',
         questions: pastQuestions
     },
     {
-        title: 'My Present',
+        title: 'Toby\'s Present',
         questions: presentQuestions
     },
     {
-        title: 'My Future',
+        title: 'Toby\'s Future',
         questions: futureQuestions
     }
 ];
