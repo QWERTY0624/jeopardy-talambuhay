@@ -5,22 +5,24 @@ const TIME_LEFT = 8; // seconds
 const sortQuestions = (questions: { points: number; question: string; answer: string; imgSrc?: string; }[]) => questions.sort((a, b) => a.points - b.points).map(q => ({ ...q, answered: false, buzzers: [] as string[] }));
 const pastQuestions: Question[] = sortQuestions([
     {
-        points: 100,
-        question: 'What grade did I join HM',
-        answer: '9th',
+        points: 200,
+        question: 'What website is this cat from',
+        imgSrc: "/scratch.jpg",
+        answer: 'scratch',
     },
     {
-        points: 200,
+        points: 100,
         question:
-            'What city is this',
-        imgSrc: "",
-        answer: 'New York City',
+            'What city is this(Use acronym)?',
+        imgSrc: "/nycpic.jpg",
+        answer: 'NYC',
     },
     {
         points: 300,
         question:
-            'What Ivy League school has the highest Native American enrollment (a whoppping 1%)?',
-        answer: 'Dartmouth',
+        'When was the electric guitar invented?',
+        imgSrc: "/guitar.jpg",
+        answer: '1931',
     },
     {
         points: 400,
@@ -34,22 +36,21 @@ const presentQuestions: Question[] =
         {
             points: 200,
             question:
-                'What kind of rock is this?',
-            imgSrc: 'https://madera.objects.liquidweb.services/photos/16842-half-dome-closeup-from-glacier-point-steve-montalto-hmi-Rectangle-600x400.jpg',
-            answer: 'Granite',
+                'What breed of dog is this?',
+            imgSrc: '/dogimage.jpg',
+            answer: 'Havanese',
         },
         {
             points: 100,
             question:
-                'What is this Cafe called?',
-            imgSrc: 'https://lh3.googleusercontent.com/p/AF1QipNsmB0ugJeJxYVrBKpRkNkyiEa6cKLamFZ4r0M=s1360-w1360-h1020',
-            answer: 'Chaotic Good',
+                'What sport is this?',
+            imgSrc: '/climbing.jpg',
+            answer: 'Bouldering',
         },
         {
             points: 300,
-            question: 'What programming language is the below code?',
-            imgSrc: '/programming_language.png',
-            answer: 'Javascript',
+            question: 'What tree nut is nutella made out of',
+            answer: 'hazelnut',
         },
         {
             points: 400,
