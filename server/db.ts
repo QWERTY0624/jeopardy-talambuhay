@@ -18,16 +18,16 @@ const pastQuestions: Question[] = sortQuestions([
         answer: 'NYC',
     },
     {
-        points: 300,
+        points: 400,
         question:
         'When was the electric guitar invented?',
         imgSrc: "/guitar.jpg",
         answer: '1931',
     },
     {
-        points: 400,
-        question: 'Who wrote the Critique of Pure Reason?',
-        answer: 'Immanuel Kant',
+        points: 300,
+        question: 'What was the tallest roller coaster in the world before it was taken down?',
+        answer: 'Kingda ka',
     }
 ]);
 
@@ -49,15 +49,15 @@ const presentQuestions: Question[] =
         },
         {
             points: 300,
-            question: 'What tree nut is nutella made out of',
-            answer: 'hazelnut',
+            question: 'Where was cheesecake first invented?',
+            answer: 'Greece',
         },
         {
             points: 400,
             question:
-                'Who painted this?',
+                'What movie is this frame from',
             imgSrc:
-                "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjb1tCOwOdOeYcp5iflCvvW95qCqpmNUo-TMIt3ndxzsxzmgmH18iClIIQLPO48ojPg5Rts2AUm9rZBeVPcjnjrjGaLSzCwbipQotY4EhOk3tUoHJjJyZjTqfY5s9MZ5eSkGrrqmom4JXUdHEqE-Ts8E9i-SuFf9xEukJcFBs5NuOhe6ANdODMFYzyV_Q/s16000/Unfinished.jpg",
+                "",
             answer: 'Keith Haring',
         }
     ]);
