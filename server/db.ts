@@ -55,20 +55,34 @@ const presentQuestions: Question[] =
         {
             points: 400,
             question:
-                'What movie is this frame from',
-            imgSrc:
-                "",
-            answer: 'Keith Haring',
+                'What game is the song \"Can You Really Call This A Hotel, I Didn\'t Receive A Mint On My Pillow Or Anything\" from?',
+            answer: 'Undertale',
         }
     ]);
 const futureQuestions: Question[] = sortQuestions([
     {
+        points: 200,
+        question:
+            'Which was the 27th state to join the United States?',
+        answer: 'Florida',
+    },
+    {
+        points: 300,
+        question:
+            'About what percent of people are allergic to seafood in the USA(include the percentage symbol)',
+        answer: '2%',
+    },
+    {
+        points: 400,
+        question:
+            'The Hamilton musical\'s songs average around how many words per minute',
+        answer: '140',
+    },
+    {
         points: 100,
         question:
-            'This country is home to the Dolomites, which are a mountain range that has historical \'via ferratas\', iron cables and rungs, to aid traversing the peaks?',
-        imgSrc:
-            "https://laguidalpina.it/cdn/shop/products/ferrata-marmolada-cresta-ovest-Cristiano-Gregnanin-Guida-Alpina-Certificata-Dolomiti-5.jpg?v=1738870778",
-        answer: 'Italy',
+            'Deltarune(Undertales sequal) is set to have how many chapters',
+        answer: '7',
     }
 ]);
 
